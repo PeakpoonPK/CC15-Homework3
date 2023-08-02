@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 1180px;
+    height: 60px;
+    align-items: center;
+    margin: auto;
+    padding-right: 40px;
+}
+
+header a {
+    color: black;
+    display: block;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: #f87575;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.box1 {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.underbox1 {
+    width: 500px;
+}
+
+.box1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 50%;
+    box-shadow: -8px 8px #cce6f4;
+}
+
+H1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+.box1 p {
+    line-height: 1.5rem;
+
+}
+
+.box1 button {
+    background-color: #f87575;
+    border-color: transparent;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.box2 {
+    background-color: #cce6f4;
+    height: 400px;
+    width: 1180px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.innerbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 80px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1.2rem;
+
+}
+
+.box2 nav a {
+    color: #4ba3c3;
+}
+
+.mainbox2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.underbox2 {
+    display: block;
+    background-color: white;
+    width: 400px;
+    border-radius: 4px;
+    padding: 8px 20px;
+    height: 300px;
+}
+
+.underbox2 h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.firstp {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}
+
+.secondp {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+hr {
+    border: 1px solid #bebbbb;
+    border-collapse: collapse;
+}
+
+.box3 {
+    /* background-color: #f87575; */
+    width: 900px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.header3 {
+    display: flex;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.underbox3 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.underbox3 img {
+    display: flex;
+    height: 240px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.underbox3 h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    align-items: flex-start;
+
+}
+
+.circleyear {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: white;
+    background-color: #00043a;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.besideyear {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    color: #bebbbb;
+
+}
+
+.innerbox3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.underbox3 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 95%;
+}
+
+.box4 {
+    display: flex;
+    position: static;
+    width: 900px;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.underbox4 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.underbox4 img {
+    width: 40px;
+}
+
+.box4 p {
+    font-size: 0.9rem;
+}
+
+@media (min-width: 800px) {}
